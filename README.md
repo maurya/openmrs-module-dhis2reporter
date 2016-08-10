@@ -13,11 +13,19 @@
 
 ## Module Model
 
+* DHIS2 Server - id, url, username, password
+* DataSet - id, dhis2server, uid, name, code, period
+* OrgUnit - id, dhis2server, uid, name, code, Location
+* DataElement - id, dhis2server, uid, name, code
+* Disaggregation - id, name, uid, dhis2server
+* DataValueTemplate - id, DataSet, DataElement, Disaggregation
+
 ## Technical Workflow
 ###Acquiring Metadata from DHIS2
  Datasets, dataelements, category options/combos/values, organization units
 ###Storing Values in OpenMRS
 ###Generating Values From OpenMRS
+Generate Aggregate values for the dataset, for all the orgunits selected 
 ###Sending Data to DHIS2
 #### ADX data
 ```
