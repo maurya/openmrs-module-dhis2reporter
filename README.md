@@ -1,10 +1,17 @@
+<img src="https://s3-eu-west-1.amazonaws.com/jembi/images/OMRSsig1.jpg" alt="OpenMRS"/>
 # openmrs-module-dhis2reporter
 
 ### Module requirements:
 * Able to support multiple DHIS2 instances
 * Integrated with DHIS2 WebAPI
 * Able to Sync new changes (of datasets and organization units) in the Dhis2 Instance
-* Support ADX
+* Support [ADX](http://wiki.ihe.net/index.php/Aggregate_Data_Exchange)
+
+## DHIS2 Model
+
+<img src="https://github.com/maurya/openmrs-module-dhis2reporter/blob/master/omod/src/main/resources/images/dhis2core_diagram.jpg" alt="DHIS2 Model"/>
+
+## Module Model
 
 ## Technical Workflow
 ###Acquiring Metadata from DHIS2
@@ -41,3 +48,6 @@
     </group>
 </adx>
 ```
+
+## License
+[MPL 2.0 w/ HD](http://openmrs.org/license/) © [OpenMRS Inc.](http://www.openmrs.org/)
