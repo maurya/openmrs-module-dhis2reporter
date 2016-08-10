@@ -1,21 +1,18 @@
 # openmrs-module-dhis2reporter
 
-### Generic Module requirements:
+### Module requirements:
 * Able to support multiple DHIS2 instances
 * Integrated with DHIS2 WebAPI
 * Able to Sync new changes (of datasets and organization units) in the Dhis2 Instance
 * Support ADX
 
-### Technical Workflow
-* Acquiring Metadata from DHIS2
-  * Datasets, dataelements, category options/combos/values, organization units
-* Storing Values in OpenMRS
-* Generating Values From OpenMRS
-* Sending Data to DHIS2
-  * ADX data
-
-
-### Final Output(ADX Data):
+## Technical Workflow
+###Acquiring Metadata from DHIS2
+ Datasets, dataelements, category options/combos/values, organization units
+###Storing Values in OpenMRS
+###Generating Values From OpenMRS
+###Sending Data to DHIS2
+#### ADX data
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <adx xmlns="urn:ihe:qrph:adx:2015"
